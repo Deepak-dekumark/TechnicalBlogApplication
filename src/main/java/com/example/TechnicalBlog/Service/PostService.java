@@ -22,4 +22,16 @@ public class PostService {
         list.add(post3);
         return list;
     }
+
+    public List<Post> getOnePost(){
+        List<Post> list=new ArrayList<Post>();
+        Post post1 = new Post("This is your first post", "This is your first post.It has some valid comment", new Date());
+        list.add(post1);
+        return list;
+    }
+
+    public void createPost (Post newPost){
+    }
+
+
 }
